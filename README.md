@@ -1,0 +1,2 @@
+# RUL-Prediction-Framework-with-Risk-Aware-Prediction-Intervals-via-Conformalized-Quantile-Regression
+A remaining useful life prediction framework for aircraft engines that jointly addresses point estimation, uncertainty quantification, and the integration of aerospace risk preferences to address the requirements of safety-critical maintenance planning. The framework is evaluated on all four subsets of NASA's C-MAPSS benchmark dataset.
