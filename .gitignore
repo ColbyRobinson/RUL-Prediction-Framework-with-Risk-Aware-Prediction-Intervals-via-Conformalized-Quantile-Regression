@@ -208,10 +208,14 @@ __marimo__/
 
 # --- Project-specific (RUL research) ---
 # Datasets are downloaded by the user (do not commit)
-data/
-data/raw/
-data/processed/
-data/interim/
+# Ignore datasets
+data/**
+
+# Allow git to traverse directories (required for exceptions to work)
+!data/**/
+
+# Track the data instructions file
+!data/README.md
 
 # Generated artifacts / outputs (do not commit)
 outputs/
