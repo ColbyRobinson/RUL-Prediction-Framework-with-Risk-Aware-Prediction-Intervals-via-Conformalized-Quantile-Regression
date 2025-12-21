@@ -6,7 +6,7 @@ The C-MAPSS dataset must be downloaded from NASA PCoE (not redistributed in this
 
 The pipelines in this repository expect \*\*cleaned CMAPSS files\*\* generated from the NASA raw text files using the three simple steps below.
 
-Expected raw filenames (FD001–FD004):
+Expected raw files (FD001–FD004):
 
 FD001 - train\_FD001.txt, test\_FD001.txt, RUL\_FD001.txt
 
@@ -36,6 +36,10 @@ The raw C-MAPSS text files do not include a header row. This project assigns the
 The following sensors are removed from all subsets:
 
 - sensor1, sensor5, sensor10, sensor16, sensor18, sensor19
+
+#### 4. Engine_id column added to RUL file
+
+For each subset, the engine_id column is added to its corresponding True RUL for the test set.
 
 ### Processed dataset location
 
