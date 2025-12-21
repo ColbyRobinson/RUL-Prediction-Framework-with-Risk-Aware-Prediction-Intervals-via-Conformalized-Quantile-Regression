@@ -18,6 +18,14 @@ pip install -r requirements.txt
 ```
 
 3. Open the virtual environment and run:
+
+   For FD001 & FD003:
 ```   
- Run command will be added after the notebooks are modularized into .py scripts
+ python .\scripts\run_fd001_fd003_experiment.py --subset FD00X
 ```
+
+   For FD002 & FD004:
+```   
+ python .\scripts\run_fd002_fd004_experiment.py --subset FD00X
+```
+These two lines of code will perform the experiments detailed in the paper for each of the specified subsets in the C-MAPSS dataset. The experiment's use the proposed RUL prediction framework that uses gradient boosting regressors for the two modeling components: the point-prediction model and the asymmetric CQR module. The randome seed will be set to 42.
