@@ -19,6 +19,39 @@ Below is a flowchart that outlines the structure of the proposed framework:
 
 ## Repository Structure
 
+```text
+.
+├── data/
+│   ├── README.md
+│   └── processed/
+│       ├── train_FD00X_cleaned.csv
+│       ├── test_FD00X_cleaned.csv
+│       └── rul_FD00X.csv
+├── results/
+│   ├── fd001/
+│   ├── fd002/
+│   ├── fd003/
+│   └── fd004/
+├── scripts/
+│   ├── run_fd001_fd003_experiment.py
+│   └── run_fd002_fd004_experiment.py
+├── .gitignore
+├── environment.yml
+├── requirements.txt
+└── README.md
+```
+
+
+## Data
+
+See data/README.md for dataset information and the steps to recreate processed files. 
+
+- Processed files required by the scripts are located in:
+
+```
+data/processed/
+```
+
 
 ## Setup
 
@@ -49,12 +82,37 @@ python .\scripts\run_fd002_fd004_experiment.py --subset FD002
 
 python .\scripts\run_fd002_fd004_experiment.py --subset FD004
 ```
-#### Notes
+#### Notes:
 - The experiments run the pipeline detailed in the paper using gradient boosting regressors for:
      - the point-prediction model
      - the asymmetric CQR module
 
 - This release reproduces numeric results and saved artifacts; plotting scripts will be added later.
 - Random seed is set to 42 (see code for details).
+
+
+## Results & Outputs
+
+Each run writes outputs to:
+```
+results/<subset>/
+```
+
+Files produced include:
+- Evaluation metrics: ``` results/<subset>/<subset>_eval_metrics.csv ```
+- Predictions table (per engine): ``` results/<subset>/<subset>_rul_predictions_<timestamp>.csv ```
+- Saved artifacts: .pkl files for point model, interval model, pca, and k-means (for regime-based normalization in FD002/FD004)
+
+
+## Citation
+
+```
+@unpublished{robinson2025rulcqr,
+      title = {Remaining Useful Life Estimation for Aircraft Engines with Risk-Aware Prediction Intervals via Conformalized Quantile Regression}, 
+      author = {Colby Don Robinson},
+      journal = {Manuscript submitted to the International Journal of Prognostics and Health Management (IJPHM)}
+      year = {2025}
+}
+```
 
 ---
