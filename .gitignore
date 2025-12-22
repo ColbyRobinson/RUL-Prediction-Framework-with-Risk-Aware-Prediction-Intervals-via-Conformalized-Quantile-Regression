@@ -214,9 +214,9 @@ data/**
 # Allow git to traverse directories (required for exceptions to work)
 !data/**/
 
-# Track the data instructions file
+# Track the data instructions and processed files
 !data/README.md
-
+!data/processed
 # Generated artifacts / outputs (do not commit)
 outputs/
 models/
