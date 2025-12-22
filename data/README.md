@@ -49,9 +49,9 @@ The raw C-MAPSS text files do not include a header row. This project assigns the
 
 #### 2. Operating settings (by subset):
 
-- Single operating condition subsets (FD001/FD003): drop `op_setting1`, `op_setting2`, `op_setting3`
+- Single operating condition subsets (FD001/FD003): **drop** `op_setting1`, `op_setting2`, `op_setting3`
 
-- Multi-condition subsets (FD002/FD004): keep `op_setting1`, `op_setting2`, `op_setting3`
+- Multi-condition subsets (FD002/FD004): **keep** `op_setting1`, `op_setting2`, `op_setting3`
 
 #### 3. Sensors removed (all subsets)
 
