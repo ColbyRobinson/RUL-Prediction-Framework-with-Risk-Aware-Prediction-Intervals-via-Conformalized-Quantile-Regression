@@ -4,7 +4,10 @@ This repository contains the code for the IJPHM paper submission: Remaining Usef
 The paper introduces a remaining useful life prediction framework for aircraft engines that jointly addresses point estimation, uncertainty quantification, and the integration of aerospace risk preferences to advance decision support for safety-critical maintenance. The framework is evaluated on all four subsets of NASA's C-MAPSS benchmark dataset.
 
 
-<img width="2368" height="724" alt="Framework Flowchart" src="https://github.com/user-attachments/assets/0f9256d2-5c6f-459c-9b1d-6024b22baec3" />
+
+<img alt="Process flow (4)"
+     src="https://github.com/user-attachments/assets/fddb24fb-617f-40e4-8fb7-3d4e4a8ab6ee"
+     style="max-width: 100%; height: auto;" />
 
 
 ## Setup
