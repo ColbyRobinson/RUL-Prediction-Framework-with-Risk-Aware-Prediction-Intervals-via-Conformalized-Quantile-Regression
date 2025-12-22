@@ -109,7 +109,7 @@ Files produced include:
 ```
 @unpublished{robinson2025rulcqr,
       title = {Remaining Useful Life Estimation for Aircraft Engines with Risk-Aware Prediction Intervals via Conformalized Quantile Regression}, 
-      author = {Colby Don Robinson},
+      author = {Robinson, Colby Don},
       journal = {Manuscript submitted to the International Journal of Prognostics and Health Management (IJPHM)}
       year = {2025}
 }
