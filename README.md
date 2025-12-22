@@ -26,12 +26,12 @@ pip install -r requirements.txt
 
 3. Open the virtual environment and run:
 
-   For FD001 & FD003:
+For FD001 & FD003:
 ```   
  python .\scripts\run_fd001_fd003_experiment.py --subset FD00X
 ```
 
-   For FD002 & FD004:
+For FD002 & FD004:
 ```   
  python .\scripts\run_fd002_fd004_experiment.py --subset FD00X
 ```
