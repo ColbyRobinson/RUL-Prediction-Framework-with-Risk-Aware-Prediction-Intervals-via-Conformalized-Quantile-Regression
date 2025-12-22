@@ -103,6 +103,7 @@ Files produced include:
 - Predictions table (per engine): ``` results/<subset>/<subset>_rul_predictions_<timestamp>.csv ```
 - Saved artifacts: .pkl files for point model, interval model, pca, and k-means (for regime-based normalization in FD002/FD004)
 
+The results from the finalized runs used in the manuscript are currently available in the results folder.
 
 ## Citation
 
