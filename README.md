@@ -108,7 +108,7 @@ The results from the finalized runs used in the manuscript are currently availab
 ## Citation
 If you use this repository, please cite the manuscript (submitted to IJPHM):
 ```
-Colby Don Robinson. *Remaining Useful Life Estimation for Aircraft Engines with Risk-Aware Prediction Intervals via Conformalized Quantile Regression*. Manuscript submitted to the International Journal of Prognostics and Health Management (IJPHM), 2025.
+Colby Don Robinson. Remaining Useful Life Estimation for Aircraft Engines with Risk-Aware Prediction Intervals via Conformalized Quantile Regression. Manuscript submitted to the International Journal of Prognostics and Health Management (IJPHM), 2025.
 ```
 
 ---
